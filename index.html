@@ -1,133 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
+<title>Remembering Richard Kanter 1935-2014</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>#000000</title>
-    <link type="image/x-icon" rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHklEQVQ4T2NkYGD4z0ABYBw1gGE0DBhGw4BhWIQBAE5OEAELnjVHAAAAAElFTkSuQmCC">
-    <style>
-        :root {
-            --color: #000000;
-            --color-transparent: #00000022;
-        }
 
-        ::selection {
-            background: var(--color-transparent);
-        }
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        html,
-        body {
-            background: var(--color);
-            height: 100%;
-            margin: 0;
-        }
+  ga('create', 'UA-55890502-1', 'auto');
+  ga('send', 'pageview');
 
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }
+</script>
 
-        #color {
-            background: white;
-            color: var(--color);
-            font-size: 2.5rem;
-            font-weight: 300;
-            padding: 2.25rem 3rem;
-            font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-            cursor: text;
-        }
-    </style>
-</head>
 
-<body>
-    <p id="color">#000000</p>
-    <script>
-        function randomInt(min, max) {
-            return Math.floor(Math.random() * (max - min + 1) + min);
-        }
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2FMJ5FB6NS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        function hslToHex(h, s, l) {
-            h /= 360;
-            s /= 100;
-            l /= 100;
-            var r = void 0,
-                g = void 0,
-                b = void 0;
-            if (s === 0) {
-                r = g = b = l; // achromatic
-            } else {
-                var hue2rgb = function hue2rgb(p, q, t) {
-                    if (t < 0) t += 1;
-                    if (t > 1) t -= 1;
-                    if (t < 1 / 6) return p + (q - p) * 6 * t;
-                    if (t < 1 / 2) return q;
-                    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
-                    return p;
-                };
-                var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-                var p = 2 * l - q;
-                r = hue2rgb(p, q, h + 1 / 3);
-                g = hue2rgb(p, q, h);
-                b = hue2rgb(p, q, h - 1 / 3);
-            }
-            var toHex = function toHex(x) {
-                var hex = Math.round(x * 255).toString(16);
-                return hex.length === 1 ? '0' + hex : hex;
-            };
-            return '#' + toHex(r) + toHex(g) + toHex(b);
-        }
+  gtag('config', 'G-2FMJ5FB6NS');
+</script>
 
-        window.onload = function () {
-            let stopProp = function (ev) {
-                ev.stopPropagation();
-            }
 
-            var colorElement = document.getElementById("color");
-            colorElement.addEventListener("click", stopProp, false);
-            colorElement.addEventListener("mousedown", stopProp, false);
 
-            var setFavicon = function (hex) {
-                var canvas = document.createElement('canvas');
-                canvas.width = 16;
-                canvas.height = 16;
-                var ctx = canvas.getContext('2d');
-                ctx.fillStyle = hex;
-                ctx.fillRect(0, 0, 16, 16);
-                document.getElementsByTagName('link')[0].href = canvas.toDataURL("image/x-icon");
-            }
 
-            var setRandomColor = function setRandomColor() {
-                var h = void 0,
-                    s = void 0,
-                    l = void 0;
+<!-- this is a comment bgcolor="#000000  color:white;   " text="white" -->
 
-                h = randomInt(0, 359);
-                s = randomInt(55, 75);
-                l = randomInt(40, 60);
+<body border="0" >
 
-                document.documentElement.style.setProperty('--color', 'hsl(' + h + ', ' + s + '%, ' + l + '%)');
-                var hex = hslToHex(h, s, l);
-                document.title = hex;
-                colorElement.innerHTML = hex;
-                document.documentElement.style.setProperty('--color-transparent', hex + '22');
 
-                setFavicon(hex);
-            };
-            setRandomColor();
 
-            var body = document.getElementsByTagName("body")[0];
-            body.addEventListener("mousedown", function (ev) {
-                ev.preventDefault();
-            });
-            body.addEventListener("click", function () {
-                setRandomColor();
-            }, false);
-        };
-    </script>
+<center><h1>Remembering Richard Kanter 1935-2014</h1></center>
+
+
+<!-- comments: background-color:#000000;-->
+
+<table border="0" style="border-collapse:collapse;border:0px solid #FFCC00;width:100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+
+
+<img width=320 src="http://richard.kanter.link/dickprofile.jpeg">
+
+</td>
+		<td>
+
+<a href ="http://csoarchives.wordpress.com/2014/10/13/remembering-richard-kanter/">Chicago Symphony Archives</a><br>
+
+
+<a href="http://www.shalom2.com/in-memorial/2014/VII%20MT%20ZION/Richard_Kanter">Memorial</a><br>
+
+<a href="http://m.legacy.com/obituaries/chicagotribune/obituary.aspx?n=Richard-Kanter&pid=172790420&referrer=0&preview=True">Obituary</a><br>
+
+<a href="http://cdn.kanter.link/RichardKanterFuneral-10-14-14%202.m4v">Video of Funeral on 10/14/14</a> <br>
+
+<a href="https://medium.com/@dmkanter/10-14-14-eulogy-i-wrote-for-my-father-richard-kanter-e25b1a32a97a">Eulogy given by David Kanter, Dick's son on 10/14/14</a> <br>
+
+<a href="http://en.m.wikipedia.org/wiki/Richard_Kanter">Wikipedia</a><br>
+
+Music / Recordings
+<ul>
+<li><a href="http://richard.kanter.link/music/Richard%20Kanter%20-%20finale.mp3">Finale</a>
+<li><a href="http://richard.kanter.link/music/Richard%20Kanter%20Scherzo.mp3">Scherzo</a>
+<li><a href="http://richard.kanter.link/music/Richard%20Kanter%201980%20VW%20Concerto.mp3">1980 VW Concerto</a>
+</ul>
+
+<!-- Curtis Tracks 1-4 when he was a student
+
+<li><a href="http://richard.kanter.link/music/Curtis-Dad-Track%2001-Quintet%20recording%20%231%20(Danzi%20E%20minor).mp3">Curtis Track 1</a> 
+<li><a href="http://richard.kanter.link/music/Curtis-Dad-Track%2002.mp3">Curtis Track 2</a>
+<li><a href="http://richard.kanter.link/music/Curtis-Dad-Track%2003.mp3">Curtis Track 3</a>
+<li><a href="http://richard.kanter.link/music/Curtis-Dad-Track%2004.mp3">Curtis Track 4</a> 
+
+Curtis tracks 1-4 are recordings that Arthur Grossman has of a concert Dick and Arthur played together while they were students at Curtis. It was a progenitor of the Soni Ventorum quintet. -->
+
+<br><br>
+
+<a href="http://richardkanter.tumblr.com">Performances, Artwork, Family Archives</a><br>
+
+<br><br>
+
+<!-- comment Eulogy from Rabbi, David, Rachel, Richard<br>
+    
+
+DVD of Funeral<br>
+
+--> 
+</td>
+</tr>
+
+
+<!-- these next 2 videos went private and unavailable  10/16/22
+
+<tr>
+	<td><iframe width="420" height="315" src="https://www.youtube.com/embed/2D5aBXpZIQk" frameborder="0" allowfullscreen></iframe></br>
+
+
+
+</td>
+	<td><iframe width="420" height="315" src="https://www.youtube.com/embed/5Z8UmrrEx3c" frameborder="0" allowfullscreen></iframe></td>
+</tr>
+
+
+--> 
+
+<tr>
+
+	<td> 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Pj2neof3MIs" frameborder="0" allowfullscreen></iframe></td>
+
+</tr>
+
+
+
+</table>
+
+
+<!-- comment out last video 
+<iframe width="420" height="315" src="//www.youtube.com/embed/MT-KB2pWZs4" frameborder="0" allowfullscreen></iframe>
+-->
+
 </body>
 
-</html>
+
+Copyright 2022
+
